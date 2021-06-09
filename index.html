@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <script src="https://kit.fontawesome.com/ae7e20400e.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div class="page">
+        <div class="header">
+            <h1> Calculator </h1>
+            <h2>
+                This project was completed before TOP clarified the instructions to only evaluate a single pair of numbers
+                at a time.
+            </h2>
+            <h2>If you are doing TOP, do not attempt to re-create this functionality!</h2>
+        </div>
+
+        <div class="main">
+            <div class="calc">
+
+                <div class="displayContainer">
+                    <div class="rawDisplay"></div>
+                    <div class="display"></div>
+                </div>
+
+                <button class="operator" id="Backspace" type="button"> <i class="fas fa-backspace"></i> </button>
+
+                <button class="operator" id="clear" type="button"> AC </button>
+                <button class="operator" id="exponent" type="button"> <span> x<sup>y</sup> </span> </button>
+                <button class="operator" id="factorial" type="button"> x! </button>
+                <button class="operator" id="divide" type="button"> <i class="fas fa-divide"></i> </button>
+
+                <button class="digit" type="button" data-key="57" id="9" > 9 </button>
+                <button class="digit" type="button" id="8" > 8 </button>
+                <button class="digit" type="button" id="7" > 7 </button>
+                <button class="operator" type="button" id="times" > <i class="fas fa-times"></i> </button>
+
+                <button class="digit" type="button" id="6" > 6 </button>
+                <button class="digit" type="button" id="5" > 5 </button>
+                <button class="digit" type="button" id="4" > 4 </button>
+                <button class="operator" type="button" id="minus" > <i class="fas fa-minus"></i> </button>
+
+                <button class="digit" type="button" id="3" > 3 </button>
+                <button class="digit" type="button" id="2" > 2 </button>
+                <button class="digit" type="button" id="1" > 1 </button>
+                <button class="operator" type="button" id="plus" > <i class="fas fa-plus"></i> </button>
+
+                <button class="digit" id="positive-negative" type="button"> +/- </button>
+                <button class="digit" type="button" id="0" > 0 </button>
+                <button class="digit" type="button" id="period" > . </button>
+                <button class="equal operator" id="equals" type="button" > <i class="fas fa-equals"></i> </button>
+            </div>
+
+            <div class="warningContainer">
+                <p class="warning"></p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="left">
+                <div>
+                    <a href="https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/calculator"> The Odin Project </a>
+                </div>
+                <p> ©️ 2021 Akshat Jaiswal, All Rights Reserved | Terms and Conditions </p>
+            </div>
+            <div class="right">
+                <a href="https://github.com/WestDragonIroh">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
